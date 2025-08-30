@@ -22,7 +22,7 @@ class Length extends React.Component
                 <button onClick={this.increase}>Increase</button>
                 <button onClick={this.reset}>Reset</button>
                 <div>
-                    <input type="text" size={this.state.lenth} />
+                    <input type="text" size={this.state.length} />
                 </div>
             </div>
         )

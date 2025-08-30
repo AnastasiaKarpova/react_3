@@ -8,7 +8,7 @@ class Hello extends React.Component
         super(props);
         this.state = {
             text: "Hello",
-            sign: "Eng"
+            sign: "Rus"
         }
     }
     changeText = () =>{
@@ -19,7 +19,7 @@ class Hello extends React.Component
     {
         return(
             <div>
-                <button onClick={this.changeText}>Изменить</button>
+                <button onClick={this.changeText}>{this.state.sign}</button>
                 <div className='Hello'>{this.state.text}</div>
             </div>
         );
