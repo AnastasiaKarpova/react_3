@@ -19,7 +19,7 @@ class Header extends React.Component{
                     >
                       Learn React
                     </a>
-                  </header>
+              </header>
         )
     }
 }
